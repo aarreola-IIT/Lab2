@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+}
+
+p, div {
+    text-align: center; /* Align form elements to the center */
+    margin: 15px;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+input[type=text] {
+    padding: 12px 18px;
+}
+
+button {
+    background-color: #6d04aa;
+    border: none;
+    color: white; /* Text color */
+    text-decoration: none;
+    margin: 4px 2px;
+    height: 40px;
+    width: 240px;
+    cursor: pointer;
+}
+
+@media screen
+    and (min-width: 480px) {
+    label {
+     display: inline-block;
+    }
+}
