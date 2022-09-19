@@ -18,6 +18,7 @@ h1 {
 }
 
 form {
+    text-align: center;
     background-color: white;
     margin: auto;
 }
@@ -26,7 +27,7 @@ input[type=text] {
     padding: 12px 18px;
 }
 
-button {
+label {
     background-color: #04AA6D;
     border: none;
     color: white; /* Text color */
