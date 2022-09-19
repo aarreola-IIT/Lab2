@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    display: flex;
+    display:grid;
 }
 
 h1 {
@@ -19,8 +19,6 @@ h1 {
 
 form {
     text-align: center;
-    background-color: white;
-    margin: auto;
 }
 
 input[type=text] {
@@ -28,8 +26,7 @@ input[type=text] {
 }
 
 label {
-    background-color: #04AA6D;
-    border: none;
+    border: groove;
     color: white; /* Text color */
     text-decoration: none;
     margin: 4px 2px;
