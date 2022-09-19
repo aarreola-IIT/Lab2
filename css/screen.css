@@ -1,45 +1,57 @@
-html, body {
+html, .container { 
     height: 100%;
-    width: 100%;
-    margin: 0;
+    font-family:'Times New Roman', Times, serif
 }
 
-body {
-    font-family: Georgia, Verdana, sans-serif;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    display: flex;
+.container {
+    width: 400px; 
+    height: 400px; 
+    margin: 8% auto; 
+    background: #fff; 
+    border-radius: 5px; 
+    position: relative; 
 }
 
-p, div {
-    text-align: center; /* Align form elements to the center */
-    margin: 15px;
+h1 {
+    text-align: center;  
+    margin-bottom: 40px;
+    color: black;
+    font-size: x-large;
 }
 
-form {
-    background-color: rgb(255, 255, 255);
-    margin: auto;
+.container form {
+    width: 280px;
+    position: absolute; 
+    top: 100px; 
+    left: 40px;
 }
 
-input[type=text] {
-    padding: 12px 18px;
+form input { 
+    width: 100%; 
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+}
+.btn-box {
+    width: 100%; 
+    margin: 30px auto; 
+    text-align: center;
 }
 
-button {
-    background-color: #6d04aa;
-    border: none;
-    color: white; /* Text color */
-    text-decoration: none;
-    margin: 4px 2px;
-    height: 40px;
-    width: 240px;
+form button { 
+    width: 100px; 
+    height: 35px; 
+    margin: 0 10px; 
+    background: linear-gradient(to right, #859199, #2c3e50); 
+    border: 0;
+    outline: none; 
     cursor: pointer;
+    border-radius: 50px;
 }
 
-@media screen
-    and (min-width: 480px) {
-    label {
-     display: inline-block;
+@media screen 
+    and (max-width: 500px) {
+        .container {
+            margin: auto;
+        }
     }
-}
