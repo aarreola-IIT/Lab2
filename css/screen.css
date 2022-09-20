@@ -18,9 +18,10 @@ h1 {
 }
 
 form {
-    border: groove;
-    height: fit-content;
+    display: flow-root;
+    height: auto;
     text-align: center;
+    width: auto;
 }
 
 input[type=text] {
