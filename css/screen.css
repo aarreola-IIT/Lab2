@@ -20,6 +20,7 @@ h1 {
 form {
     border: groove;
     height: fit-content;
+    text-align: center;
 }
 
 input[type=text] {
