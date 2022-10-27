@@ -5,7 +5,6 @@ html, body {
 }
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-repeat: no-repeat;
      background-size: auto;
     background-position: center;
     display:grid; 
@@ -25,7 +24,7 @@ input[type=text] {
 }
 label{
         border: none;
-        color: white; /* Text color */
+        color: black; /* Text color */
         text-decoration: none;
         margin: 4px 2px;
         height: 40px;
